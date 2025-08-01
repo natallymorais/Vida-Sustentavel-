@@ -10,15 +10,17 @@ body{
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-
+#wrrapper{
+    width: 100%;
+    margin: 0 auto;
+}
 main{
     display: block;
     background-color: var(--branco);
+    margin: 0;
 }
 
 #destaque{
-    width: 100%;
-    max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -27,7 +29,8 @@ p{
     margin-bottom: 48px;
 }
 
-h1{
+#topicos,#banner h1{
+    color: var(--branco);
     margin-bottom: 40px;
     font-size: 30px;
 }
@@ -37,7 +40,7 @@ h1{
     background: var(--branco);
 }
 
-#banner{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +54,7 @@ h1{
     background-size: cover;
 }
 
-#banner img{
+#banner {
     background-image: url(/images/robin-wersich-Q0IrpWQIMR4-unsplash.jpg);
 }
 
@@ -61,4 +64,12 @@ h1{
     font-size: 78px;
     z-index: 50;
     text-transform:uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+#topicos{
+    background-image: url(/images/kelly-sikkema-iu3MkDoQXDM-unsplash.jpg);
+}
+
+header{
+    border-bottom: 1px solid green !important;
 }
