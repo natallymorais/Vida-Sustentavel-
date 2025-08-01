@@ -1,0 +1,121 @@
+:root {
+    --preto: black;
+    --branco: aliceblue;
+    --verde: rgb(181, 217, 121);
+    --verdeMusgo: rgb(91, 111, 60);
+    --terra: rgb(122, 94, 66);
+    --bege: rgb(240, 236, 215);
+}
+
+* {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#nav,
+footer {
+    background-color: var(--verdeMusgo);
+}
+
+h3 {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: var(--branco);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* para quebrar linha */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#all {
+    display: block;
+    background-color: var(--terra);
+}
+.conteudo{
+    display: none;
+}
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+section.modulo p {
+    margin-bottom: 40px;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.content {
+    padding: 40px;
+    background: var(--bege);
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.modulo.parallax-1 {
+    background-image: url(/images/robin-wersich-Q0IrpWQIMR4-unsplash.jpg);
+}
+
+section.modulo.parallax-2 {
+    background-image: url(/images/kelly-sikkema-iu3MkDoQXDM-unsplash.jpg);
+}
+
+section.modulo.parallax-3 {
+    background-image: url(/images/noah-buscher-x8ZStukS2PM-unsplash.jpg);
+}
+
+section.modulo.parallax {
+    text-align: center;
+}
+
+footer {
+    margin: 0%;
+    padding: 20px;
+}
+
+#carouselExampleCaptions {
+    justify-content: center;
+    height: auto;
+}
+
+footer {
+    justify-items: center;
+}
+
+footer h4 {
+    font-size: 13px;
+}
