@@ -45,7 +45,7 @@ main {
 
 #all {
     display: block;
-    background-color: var(--terra);
+    background: var(--terra);
 }
 .conteudo{
     display: none;
@@ -89,27 +89,33 @@ section.modulo.parallax {
 section.modulo.parallax-1 {
     background-image: url(/images/robin-wersich-Q0IrpWQIMR4-unsplash.jpg);
 }
-
 section.modulo.parallax-2 {
     background-image: url(/images/kelly-sikkema-iu3MkDoQXDM-unsplash.jpg);
 }
-
 section.modulo.parallax-3 {
     background-image: url(/images/noah-buscher-x8ZStukS2PM-unsplash.jpg);
+}
+section.modulo.parallax-4 {
+    background-image: url(/images/sandie-clarke-q13Zq1Jufks-unsplash.jpg);
 }
 
 section.modulo.parallax {
     text-align: center;
 }
 
-footer {
-    margin: 0%;
-    padding: 20px;
-}
 
 #carouselExampleCaptions {
     justify-content: center;
-    height: auto;
+    width: 1000px;
+    padding: 20px;
+    background-color: var(--terra);
+}
+#final{
+    background-color: var(--terra);
+}
+footer {
+    margin: 0%;
+    padding: 20px;
 }
 
 footer {
